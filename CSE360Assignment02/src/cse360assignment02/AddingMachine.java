@@ -21,9 +21,12 @@ public class AddingMachine {
 		 * call toString() method to return the string
 		 */
 		System.out.print(myCalculator);
+		
 	}
 	
-	  
+		/**
+		 * this constructor initialize the variable
+		 */
 	  public AddingMachine () {
 		 total = 0;
 		 result = "0";
@@ -58,9 +61,12 @@ public class AddingMachine {
 	  }
 	  
 		/**
-		 * no description in assignment describe 
-		 * what this method should perform
+		 * clear the adding machine by set the 
+		 * total to 0, and result to empty string
 		 */
 	  public void clear() {
+		  
+		  total = 0;
+		  result = "";
 	  }
 }
