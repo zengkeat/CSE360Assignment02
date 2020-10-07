@@ -9,6 +9,10 @@ public class AddingMachine {
 	 */
 	private String result = "";
 	
+	/**
+	 * 
+	 * I added main class in this file so that it can run properly
+	 */
 	public static void main(String[] args) {
 		
 		AddingMachine myCalculator = new AddingMachine();
